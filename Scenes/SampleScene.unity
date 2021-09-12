@@ -397,8 +397,8 @@ MonoBehaviour:
   storage: {fileID: 1674429272}
   controller: {fileID: 1192491134}
   stationed: 0
-  agent: {fileID: 80555754}
   isMoving: 0
+  agent: {fileID: 80555754}
 --- !u!195 &80555754
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -7843,8 +7843,8 @@ MonoBehaviour:
   storage: {fileID: 1674429272}
   controller: {fileID: 1192491134}
   stationed: 0
-  agent: {fileID: 847801389}
   isMoving: 0
+  agent: {fileID: 847801389}
 --- !u!1 &853781395
 GameObject:
   m_ObjectHideFlags: 0
@@ -9318,7 +9318,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: 0.35355338, y: -0.35355338, z: 0.1464466, w: 0.8535535}
-  m_LocalPosition: {x: 78, y: 94, z: -61}
+  m_LocalPosition: {x: 74, y: 94, z: -65}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -17270,8 +17270,8 @@ MonoBehaviour:
   storage: {fileID: 1674429272}
   controller: {fileID: 1192491134}
   stationed: 0
-  agent: {fileID: 2095723134}
   isMoving: 0
+  agent: {fileID: 2095723134}
 --- !u!195 &2095723134
 NavMeshAgent:
   m_ObjectHideFlags: 0
