@@ -9,6 +9,7 @@ public class Inventory : MonoBehaviour
 
     void Start()
     {
+        // Initialise storage with 20 of each item type
         items = new List<Item>();
         items.Add(new Item("Meal 1", 20));
         items.Add(new Item("Meal 2", 20));
@@ -19,9 +20,10 @@ public class Inventory : MonoBehaviour
 
 
 
-
+    // Check if an item is currently in stock
     public bool RequestItem(string item)
     {
+        // Linear search through all the items
         for(int i = 0; i < items.Count; i++)
         {
             if (item == items[i].GetName())

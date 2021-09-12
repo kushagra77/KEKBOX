@@ -8,6 +8,7 @@ public struct Item
     public string name;
     public int num;
 
+    // Item initialiser
     public Item(string _name, int _num)
     {
         name = _name;
